@@ -34,6 +34,8 @@ const Skillset = () => {
         <Skillcard skill="CSS" percentage="80%" imagen="https://cdn.iconscout.com/icon/free/png-256/free-css3-8-1175200.png?f=webp" />
         <Skillcard skill="SQL" percentage="95%" imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sql_data_base_with_logo.png/640px-Sql_data_base_with_logo.png" />
         <Skillcard skill="Next" percentage="20%" imagen="https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png" />
+        <Skillcard skill="C#" percentage="70%" imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png" />
+        <Skillcard skill="C++" percentage="70%" imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" />
       </div>
       <button className="carousel-button next" onClick={handleNextClick}>›</button>
     </div>
