@@ -28,6 +28,7 @@ const Skillset = () => {
         <Skillcard skill="JavaScript" percentage="75%" imagen="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" />
         <Skillcard skill="React" percentage="50%" imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa7ECW4xHgJyeIQexegqGhxgHGknkobmD0xA&s" />
         <Skillcard skill="Vite" percentage="40%" imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/2078px-Vitejs-logo.svg.png" />
+        <Skillcard skill="Express" percentage="50%" imagen="https://miro.medium.com/v2/resize:fit:365/1*Jr3NFSKTfQWRUyjblBSKeg.png" />
         <Skillcard skill="Kotlin" percentage="30%" imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDP-LG1v6Ao1muLcXgIpbFDqhsiQ05mKXDxQ&s" />
         <Skillcard skill="Docker" percentage="80%" imagen="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJl4fp0SkQbTPU5ZxVl6AKWYuKCwM0gIhNtQ&s" />
         <Skillcard skill="Html" percentage="90%" imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png" />
