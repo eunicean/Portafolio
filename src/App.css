@@ -1,36 +1,20 @@
+:root {
+  --WHITE: #FFF;
+  --BEIGE: #E6DCD3;
+  --SOFTBROWN: #B4A79E;
+  --SOFTBROWN2: #BDA18C;
+  --BROWN: #3F352C;
+  --CHOCOLATE: #181713;
+  --LINEN: #F1ECE6;
+  --PINKISHBROWN: #be7272a8;
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
 
 .card {
@@ -43,17 +27,99 @@
 
 .aboutmeSection {
   display: flex;
-  width: 100%;
-  gap: 20px;
-  background-color: aqua;
+  justify-content: center; /* Centrar elementos horizontalmente */
+  align-items: center;
+  margin: 0 auto;
+  width: 60em;
+  gap: 20px;  
 }
 
 .aboutmeSection img{
-  max-width: 150px;
+  max-width: 250px;
+  border-radius: 20px;
 }
 
 .aboutmeSection .info{
   flex-grow: 1;
-  background-color: #888;
+  background-color: var(--PINKISHBROWN);
+  border-radius: 20px;
   padding: 2%;
+  align-content: center;
+}
+
+.optionsHeader {
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  left: 0;
+  position: fixed;
+  background: linear-gradient(to right, var(--CHOCOLATE),var(--SOFTBROWN2), var(--CHOCOLATE));
+  color: var(--LINEN);
+  padding: 10px;
+  text-align: center; 
+}
+
+.optionsHeader a {
+  color: var(--LINEN); 
+  text-decoration: none; 
+  margin: 0 15px;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 60em;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.skillset {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  will-change: transform;
+}
+
+.skillcard {
+  flex: 0 0 auto;
+  margin: 20px;
+  padding: 20px 0;
+  border-radius: 15px;
+  min-width: 150px;
+  height: auto;  
+  font-weight: bold;
+  color: var(--BROWN);
+  background-color: var(--SOFTBROWN2);
+}
+
+.imageSkill {
+  margin-top: 10px;
+  height: 70px;
+  max-width: 125px;
+  border-radius: 10px;
+}
+
+.skillname {
+  font-size: 1.4em;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--BROWN);
+  border: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 12px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.carousel-button.prev {
+  left: 0;
+}
+
+.carousel-button.next {
+  right: 0;
 }
