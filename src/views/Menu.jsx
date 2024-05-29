@@ -1,12 +1,16 @@
 import { useEffect } from "react";
 import About from "./Aboutme";
+import Gretings from "./Greetings";
+import Skillset from "./Skillset";
 
 
 function Menu() {
     return(
         <>
-            <h1>Hola</h1>
+            <Gretings />
             <About />
+            <h3>Skills learned</h3>
+            <Skillset />
         </>
     )
 }
