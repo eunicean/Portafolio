@@ -4,6 +4,13 @@ function Header({ navigator }) {
             <a href=""> About me </a>
             | 
             <a href=""> Skills </a>
+            |
+            <a href="">Works</a>
+            |
+            <a href="">Achievements</a>
+            |
+            <a href="">Contact me</a>
+            
         </div>
     );
 }
