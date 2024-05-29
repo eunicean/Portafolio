@@ -13,5 +13,6 @@ export default defineConfig({
       '@views':'/src/views'
 
     }
-  }
+  },
+  base: "/Portafolio/"
 })
