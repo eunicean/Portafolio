@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import About from "./Aboutme";
 import Gretings from "./Greetings";
 import Skillset from "./Skillset";
+import Contactme from "./Contactme";
 
 
 function Menu() {
@@ -11,6 +12,7 @@ function Menu() {
             <About />
             <h3>Skills learned</h3>
             <Skillset />
+            <Contactme />
         </>
     )
 }
